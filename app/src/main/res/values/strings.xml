@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BasicKotlinApp</string>
+    <string name="lista_de_pa_ses">Lista de países</string>
+    <string name="cadastre_um_novo_pa_s">Cadastre um novo país</string>
+    <string name="nome">nome</string>
+</resources>
