@@ -2,12 +2,10 @@ package br.com.iwatasoftware.basickotlinapp.activity
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import br.com.iwatasoftware.basickotlinapp.AddCountryActivity
 import br.com.iwatasoftware.basickotlinapp.R
 import br.com.iwatasoftware.basickotlinapp.adapter.CountryAdapter
 import br.com.iwatasoftware.basickotlinapp.model.Country

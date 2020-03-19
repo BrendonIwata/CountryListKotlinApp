@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-    tools:context=".AddCountryActivity">
+    tools:context=".activity.AddCountryActivity">
 
     <TextView
         android:id="@+id/tv_title_add_country"
@@ -29,5 +29,11 @@
             android:hint="@string/nome"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_file"
+        android:background="@color/colorAccent"
+        android:padding="4dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

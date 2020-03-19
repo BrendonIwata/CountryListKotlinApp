@@ -1,7 +1,8 @@
-package br.com.iwatasoftware.basickotlinapp
+package br.com.iwatasoftware.basickotlinapp.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.iwatasoftware.basickotlinapp.R
 
 class AddCountryActivity : AppCompatActivity() {
 
