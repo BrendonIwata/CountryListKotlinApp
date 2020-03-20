@@ -3,4 +3,6 @@
     <string name="lista_de_pa_ses">Lista de países</string>
     <string name="cadastre_um_novo_pa_s">Cadastre um novo país</string>
     <string name="nome">nome</string>
+    <string name="adiconar_icone_do_pais">adiconar icone do pais</string>
+    <string name="icone_de_arquivo">icone de arquivo</string>
 </resources>
