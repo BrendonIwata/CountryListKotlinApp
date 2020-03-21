@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.iwatasoftware.basickotlinapp.R
+import br.com.iwatasoftware.basickotlinapp.activity.addcountry.AddCountryActivity
 import br.com.iwatasoftware.basickotlinapp.adapter.CountryAdapter
 import br.com.iwatasoftware.basickotlinapp.model.Country
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val recyclerViewCountry = rv_country
 
-        var countryAdapter = CountryAdapter(countrys(), this)
+        val countryAdapter = CountryAdapter(countrys(), this)
         countryAdapter.onItemClick = {country -> Toast.makeText(this, "O pais eh " + country.name, Toast.LENGTH_LONG).show()}
         recyclerViewCountry.adapter = countryAdapter
         val linearLayoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
