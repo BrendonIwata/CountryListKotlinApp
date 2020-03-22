@@ -6,4 +6,6 @@
     <string name="adiconar_icone_do_pais">adiconar icone do pais</string>
     <string name="icone_de_arquivo">icone de arquivo</string>
     <string name="dont_have_permission_to_read_file">Você ainda não concedeu as permissões para ler arquivos</string>
+    <string name="concluir">concluir</string>
+    <string name="cancelar">cancelar</string>
 </resources>

@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 import br.com.iwatasoftware.basickotlinapp.R
+import br.com.iwatasoftware.basickotlinapp.activity.cropimage.CropImageActivity
 import kotlinx.android.synthetic.main.activity_add_country.*
 import java.io.FileNotFoundException
 import java.io.IOException
@@ -31,11 +32,12 @@ class AddCountryActivity : AppCompatActivity(), AddCountryView {
         ivPreviewCountry = iv_preview_country
 
         btnFile.setOnClickListener {
-            val intent = Intent()
-            intent.action = Intent.ACTION_GET_CONTENT
-
-            intent.type = "image/*"
-            startActivityForResult(Intent.createChooser(intent, "Select Picture"), pickImage)
+//            val intent = Intent()
+//            intent.action = Intent.ACTION_GET_CONTENT
+//
+//            intent.type = "image/*"
+//            startActivityForResult(Intent.createChooser(intent, "Select Picture"), pickImage)
+            startActivity(Intent(this, CropImageActivity::class.java))
         }
     }
 
