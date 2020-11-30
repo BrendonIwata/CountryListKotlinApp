@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="@android:color/black"
     android:gravity="center"
+    android:theme="@style/MyTheme"
     android:orientation="vertical"
     tools:context=".activity.cropimage.CropImageActivity">
 
@@ -17,35 +18,4 @@
         custom:cropAspectRatioY="1"
         custom:cropFixAspectRatio="true"
         custom:cropShape="rectangle" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn_done"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_weight="1"
-            android:background="@android:color/holo_green_dark"
-            android:text="@string/concluir"
-            android:textColor="@android:color/white" />
-
-        <Button
-            android:id="@+id/btn_cancel"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
-            android:text="@string/cancelar"
-            android:textColor="@android:color/white"/>
-    </LinearLayout>
-
 </LinearLayout>

@@ -2,5 +2,16 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryLight">#9152eb</color>
     <color name="colorAccent">#03DAC5</color>
+
+
+
+    <color name="vermelho_vinho">#870000</color>
+    <color name="verde_musgo">#496e01</color>
+
+
+
+
+
 </resources>
